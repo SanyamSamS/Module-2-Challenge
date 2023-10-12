@@ -1,0 +1,33 @@
+
+header {
+    background-color: #114799;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 200px;
+    border-radius: 100px;
+    
+}
+
+h1 {
+    color: aqua;
+}
+
+nav ul li {
+    display: inline;
+    color: #114799;
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+nav a {
+    color: #114799;
+}
+
