@@ -19,6 +19,11 @@ h1 {
     color: aqua;
 }
 
+h2, h3, h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
 nav ul li {
     display: inline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -35,9 +40,13 @@ a {
 .container {
     margin: 20px 0px;
     padding: 20px 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #114799;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 400px;
+    
 }
 
 #about {
@@ -46,20 +55,34 @@ a {
 
 #projects {
     margin: 10px;
+  
 }
 
 .project-item {
     border: 5px;
+    margin: 5px;   
+    padding: 5px;
     border-style: solid;
     border-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 600px;
 }
 
 .project-item img {
-    max-width: 400px;
+    width: 400px;
     display: flex;
+    margin: 10px;
+    transition: 0.5s;
+
 }
 
-#contacts {
+
+.project-item img:hover {
+    transform: scale(1.15); /*W3 schools transition*/
+}
+
+#contact {
     margin: 10px;
 }
 
