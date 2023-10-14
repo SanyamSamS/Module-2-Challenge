@@ -86,6 +86,10 @@ a {
     margin: 10px;
 }
 
+#contact ul {
+    list-style-type: none;
+}
+
 footer {
     background-color: black;
     color: aqua;
