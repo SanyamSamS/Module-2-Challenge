@@ -1,4 +1,4 @@
-
+/* Header styling */
 header {
     background-color: black;
     color: #fff;
@@ -11,6 +11,7 @@ header {
     flex-wrap: wrap;
 }
 
+/* Header image styling */
 header img {
     max-width: 200px;
     border-radius: 100px;
@@ -18,28 +19,34 @@ header img {
     flex: 1 1 200px; 
 }
 
+/* Heading 1 styling */
 h1 {
     color: aqua;
 }
 
+/* Headings 2, 3, and 4 styling */
 h2, h3, h4 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
 }
 
+/* Navigation bar list styling */
 nav ul li {
     display: inline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* Navigation bar link styling */
 nav a {
     color: aqua;
 }
 
+/* Global link styling */
 a {
     color: #fff;
 }
 
+/* Container for each content section */
 .container {
     margin: 20px 0px;
     padding: 20px 50px;
@@ -51,11 +58,10 @@ a {
     justify-content: space-evenly;
     align-items: flex-start;
     flex: 4;
-    box-shadow: 5px 5px 5px #aaaaaa;
-
-    
+    box-shadow: 5px 5px 5px #aaaaaa;   
 }
 
+/* About section styling */
 #about {
     margin: 10px;
     flex-direction: column;
@@ -63,11 +69,12 @@ a {
     align-items: center;
 }
 
+/* Projects section styling */
 #projects {
     margin: 10px;
-  
 }
 
+/* Styling for each project in the project section */
 .project-item {
     border-style: solid;
     border-width: 1px;
@@ -78,26 +85,30 @@ a {
     transform: rotate(8deg);
     box-shadow: 7px 7px 15px #e7e6e6;
     margin: 20px;
-
 }
 
+/* Styling for each project image */
 .project-item img {
     max-width: 250px;
     border-radius: 50px;
 }
 
+/* Project image hover effect */
 .project-item img:hover {
-    transform: scale(1.15); /*W3 schools transition*/
+    transform: scale(1.15); 
 }
 
+/* Contact section styling */
 #contact {
     margin: 10px;
 }
 
+/* Contact section list styling */
 #contact ul {
     list-style-type: none;
 }
 
+/* Footer styling */
 footer {
     background-color: black;
     color: aqua;
